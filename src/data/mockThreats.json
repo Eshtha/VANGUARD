@@ -1,0 +1,62 @@
+[
+  {
+    "id": "TRT-8901",
+    "cveId": "CVE-2026-4091",
+    "title": "Zero-Day Remote Code Execution",
+    "severity": "Critical",
+    "status": "Active",
+    "affectedSystem": "Core Authentication API",
+    "cvssScore": 9.8,
+    "dateDetected": "2026-04-29T01:15:00Z"
+  },
+  {
+    "id": "TRT-8902",
+    "cveId": "CVE-2026-3022",
+    "title": "SQL Injection Vulnerability",
+    "severity": "High",
+    "status": "Investigating",
+    "affectedSystem": "User Database Cluster",
+    "cvssScore": 8.5,
+    "dateDetected": "2026-04-28T14:30:00Z"
+  },
+  {
+    "id": "TRT-8903",
+    "cveId": "CVE-2026-1105",
+    "title": "Cross-Site Scripting (XSS)",
+    "severity": "Medium",
+    "status": "Mitigated",
+    "affectedSystem": "Admin Dashboard Frontend",
+    "cvssScore": 5.4,
+    "dateDetected": "2026-04-27T09:45:00Z"
+  },
+  {
+    "id": "TRT-8904",
+    "cveId": "CVE-2026-0884",
+    "title": "Unrestricted File Upload",
+    "severity": "Critical",
+    "status": "Active",
+    "affectedSystem": "Media Storage Bucket",
+    "cvssScore": 9.1,
+    "dateDetected": "2026-04-29T02:05:00Z"
+  },
+  {
+    "id": "TRT-8905",
+    "cveId": "CVE-2025-9931",
+    "title": "Outdated OpenSSL Library",
+    "severity": "Low",
+    "status": "Active",
+    "affectedSystem": "Legacy Payment Gateway",
+    "cvssScore": 3.2,
+    "dateDetected": "2026-04-25T11:20:00Z"
+  },
+  {
+    "id": "TRT-8906",
+    "cveId": "CVE-2026-4412",
+    "title": "Privilege Escalation Flaw",
+    "severity": "High",
+    "status": "Investigating",
+    "affectedSystem": "Internal HR Portal",
+    "cvssScore": 7.8,
+    "dateDetected": "2026-04-28T16:50:00Z"
+  }
+]
