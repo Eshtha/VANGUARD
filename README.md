@@ -1,16 +1,31 @@
-# React + Vite
+# 🛡️ VANGUARD: Threat Intelligence Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VANGUARD is a high-performance, frontend "Command Center" designed for cybersecurity analysts. It simulates a real-time monitoring environment by ingesting vulnerability data (like CVEs) and transforming raw JSON into an interactive, visually readable, and actionable dashboard.
 
-Currently, two official plugins are available:
+This project was built as a capstone to demonstrate advanced frontend architecture, state management, and data visualization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Core Features
 
-## React Compiler
+* **⚡ Real-Time Data Engine:** Instantly search through threat databases by CVE ID, vulnerability name, or affected system.
+* **🎯 Dynamic Filtering:** Sort active threats by severity (Critical, High, Medium, Low) using instant state updates without page reloads.
+* **📈 Visual Analytics:** Automated parsing of threat data into interactive charts:
+  * **Severity Distribution:** A color-coded Donut Chart tracking the volume of threat levels.
+  * **CVSS Plotting:** A Bar Chart mapping the specific Base Scores of active vulnerabilities.
+* **🧭 Seamless Routing:** A multi-page Single Page Application (SPA) architecture allowing instant navigation between the Live Feed and the Analytics Engine.
+* **🎨 Tactical UI/UX:** A custom-built, military-grade dark theme (brown/amber) optimized for low eye strain during continuous monitoring.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Core Framework:** React 18 + Vite (for lightning-fast HMR and optimized builds)
+* **Styling:** Tailwind CSS (v3)
+* **Routing:** React Router v6 (`react-router-dom`)
+* **Data Visualization:** Recharts
+* **Icons:** Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+To run VANGUARD locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/VANGUARD.git](https://github.com/YOUR_GITHUB_USERNAME/VANGUARD.git)
